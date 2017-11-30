@@ -42,7 +42,6 @@ const NG_SELECT_VALUE_ACCESSOR = {
     styleUrls: ['./ng-select.component.scss'],
     providers: [NG_SELECT_VALUE_ACCESSOR],
     encapsulation: ViewEncapsulation.None,
-    changeDetection: ChangeDetectionStrategy.OnPush,
     host: {
         'role': 'dropdown',
         'class': 'ng-select'
